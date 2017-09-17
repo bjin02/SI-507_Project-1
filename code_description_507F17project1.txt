@@ -25,7 +25,7 @@ Note that this description covers what the code SHOULD do. It may be very slight
 * A class Deck
 	* The class Deck's constructor does not accept input, and you can assume this will always be handled correctly by a programmer using this code.
 
-	* The Deck constructor builds a list of cards -- all the cards that would be included in a 52-card deck: rank 1-13 of each of the four suits.
+	* The Deck constructor builds a list ofe cards -- all the cards that would be included in a 52-card deck: rank 1-13 of each of the four suits.
 
 	* The Deck constructor creates one instance variable: self.cards, which should hold a list of Card objects when a Deck instance is created.
 
@@ -49,9 +49,8 @@ Note that this description covers what the code SHOULD do. It may be very slight
 
 	* The play_war_game function should initialize two Deck instances, representing Player 1 and Player 2, inside its function scope and simulate a variation on the card game of War (http://www.bicyclecards.com/how-to-play/war/). This happens with no external input. There are 3 possible outcomes: the Player1 score is larger than the Player2 score and Player1 wins, the Player2 score is larger than the Player1 score and Player2 wins, or the two scores are the same and there is a tie.
 
-	* The play_war_game function should always return a tuple of a string and two integers, where the string is either "Player1", "Player2", or "Tie", and the integers represent the Player1 score and the Player2 score, respectively.
-
-* A function show_song
+	* The play_war_game function should always return a tuple of a string and two integers, where the string is either "Player1", c
+* A function show_son
 
 	* The show_song function takes a string as input to use as a search term for songs on iTunes. Its default value is "Winner", but you should be able to search for any search term with this function.
 
